@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+body{
+  font-family: 'pretendard','맑은 고딕',돋움, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+h1{
+  font-family: '휴먼매직체','휴먼둥근헤드라인','맑은 고딕',돋움, sans-serif;
+  background-color: #3bc5fc;
+  color: #fff;
+  text-align: center;
+}
+section#box1{
+  background-color: #ddd;
+  text-align: center;
+}
+section#box1 > h3 {
+color: #fd7443;
+text-decoration: underline;
+font-weight: normal;
+}
+section#box1 > a{
+  color:inherit; /* 상속 */
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  color:#fff;
+  background-color: #000052;
+}
+.redText{
+  font-size: 16px;  
+  line-height: 1.4;
+  color: red;
+}
+
+section#box2{
+  background-color: antiquewhite;
+}
+
+section#box2 > h2{
+  color: #c40101;
+  text-decoration: underline;
+  text-align: center;
+}
+section#box2 > h3[id="rightText"]{
+  background-color: #3bc5fc;
+  color: #fff;
+  text-align: right;
+}
+section#box2 > p[id="textIndent"]{
+  text-indent: 50px;
+}
+section#box2 > ul> li[class="colorLine"]{
+  background-color: orange;
+}
