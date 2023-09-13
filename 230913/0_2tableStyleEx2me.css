@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* 캡션으로 상단 제작해서 둥글게 처리 */
+
+body{
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+caption{
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px;
+  background-color: orange;
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;    
+}
+
+table.box{
+  margin: 20px auto;
+  border: 5px solid orange;
+}
+
+table.box th{      
+  width: 100px; height: 40px;
+  border: 3px dashed red;
+}
+
+table.box td{      
+  width: 150px; height: 40px;
+  border: 3px dashed red;
+}
+
+table.box tr.title{      
+  background-color: orange;
+}
+
+table.box1{      
+  border-collapse: separate; 
+}
+
+table.box2{
+  border-spacing: 0;
+  border-collapse: collapse;      
+}
