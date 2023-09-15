@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>flexEx6</title>
+  <style>
+    body{margin: 0;}
+
+    #container {
+      height: 5vh;
+      display: flex;
+      justify-content: space-between;  
+      align-items: center;    
+    }
+    
+    .wrapper .item {
+      height: 100%;
+      display: flex;
+      justify-content: center;  
+      align-items: center;    
+    }
+
+    .wrapper .item1 {background-color: orange; width: 50px;}
+    .wrapper .item2 {background-color: #facf80; width: 100%;}
+    .wrapper .item3 {background-color: rgba(0, 128, 0, .5); width: 50px;}
+
+    #container .item2 {      
+      display: flex;
+      justify-content: flex-start;  
+    }
+
+    a{color: inherit; text-decoration: none;}
+
+  </style>
+</head>
+<body>
+  <div class="wrapper" id="container">
+    <a href="#" class="item item1">로고</a>
+    <form class="item item2">
+      <label for="userSearch">
+        <input type="search" id="userSearch">
+      </label>
+      <button>검색</button>
+    </form>
+
+    <span class="item item3">메뉴</span>
+  </div>
+</body>
+</html>

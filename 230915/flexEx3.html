@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>flexEx3</title>
+  <style>
+    body{margin: 0; font-weight: bold;}
+    
+    #container {      
+      display: flex;
+      flex-flow: wrap;
+      align-content: center;
+    }
+
+    #container .item {
+      width: 100vw; height: 100vh; 
+    }
+
+    #container .item1 {
+      height: 30vh;
+    }
+    #container .item2 {
+      height: 15vh;
+    }
+    #container .item3 {
+      width: 30%;
+    }
+    #container .item4 {
+      width: 70%;
+    }
+
+    .wrapper .item1 {background-color: blueviolet;}
+    .wrapper .item2 {background-color: violet;}
+    .wrapper .item3 {background-color: pink;}
+    .wrapper .item4 {background-color: #ff006a;}
+
+  </style>
+</head>
+<body>
+  <div class="wrapper" id="container">
+    <div class="item item1">header </div>
+    <div class="item item2">nav </div>
+    <div class="item item3">aside </div>
+    <div class="item item4">section </div>
+  </div>
+</body>
+</html>
