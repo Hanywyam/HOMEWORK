@@ -4,15 +4,34 @@
   <meta charset="UTF-8">
   <title>flexEx7</title>
   <style>
+    body{margin: 0;}
+
+    ul{list-style: none;}
+
+    a {
+      background-color: orange;
+      padding: 10px 100%;
+      color: inherit; 
+      text-decoration: none;
+      display: block;
+    }
+
+    #container {
+      background-color: #b4b4eb;
+      height: 5vh;
+      display: flex;
+      justify-content: space-between;  
+      align-items: center;    
+    }
   </style>
 </head>
 <body>
   <ul class="wrapper" id="container">
-    <li class="item item1">Home</li>
-    <li class="item item2">Company</li>
-    <li class="item item3">Servise</li>
-    <li class="item item4">Product</li>
-    <li class="item item5">Board</li>
+    <li class="item item1"><a href="#">Home</a></li>
+    <li class="item item2"><a href="#">Company</a></li>
+    <li class="item item3"><a href="#">Service</a></li>
+    <li class="item item4"><a href="#">Product</a></li>
+    <li class="item item5"><a href="#">Board</a></li>
   </ul>
 </body>
 </html>
