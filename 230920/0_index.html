@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>webEx</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+KR:wght@400;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <style>
+    body {      
+      font-family: 'Noto Sans KR', '맑은 고딕', sans-serif;
+      font-size: 400;
+      word-break: keep-all;
+      background-image: url(./img/BG-Texture-Wood-By-Nortago.gif);
+      background-attachment: fixed;
+      margin: 30px auto 0;
+      border: 3px solid #ddf;
+      width: 70vw; height: 70%;
+      min-width: 700px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      font-family: 'Lobster', cursive;
+      font-size: 1.5rem;
+      line-height: 1.2;
+      background-color: #790cb8;
+      color: #FFF;
+      margin: 0;
+    }
+
+    header .wrapper1 h3 {
+      font-family: 'Shadows Into Light', cursive;
+    }
+
+    h1, h2, h3, h4 {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .logo {      
+      width: 70px;
+      object-fit: contain;
+      object-position: 50%;
+      margin: 15px;
+      display: inline;
+    }
+    
+    header .wrapper1 {
+      width: 100%; height: 100px;
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .gnb {
+      list-style: none;
+      background-color: skyblue;
+      color: #FFF;
+      font-weight: bold;
+      text-align: center;
+      margin: 0;
+      display: flex;
+      flex-flow: nowrap;
+    }
+
+    .gnb li {
+      width: 10%; 
+    }
+
+    .gnb li a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      padding: 0.5rem 0; 
+    }
+
+    .gnb li a:hover {
+      background-color: #4477ff;
+      color: #fff;
+    }
+
+    main {
+      background-color: #ddf;
+      width: 100%; height: 400px;
+      display: flex;
+      flex-flow: row;
+    }
+
+    main .item {
+      padding: 5px;
+      margin: 10px;
+      width: 70%;
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .item .itemImg {
+      width: 80%;
+    }
+
+    .item .imgBox {   
+      /* overflow: hidden; */
+      width: 200px; height: 150px;
+      text-align: right;   
+      padding: 5px;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: column;
+      background-color: #fff;
+      border: 1px solid tomato;
+      color: #ddd;
+      font-style: italic;
+    }
+
+    .item .item2 {
+      width: 200px;
+      margin: 0;
+    }
+
+    .item h4 {
+      color: tomato;
+      padding-top: 3px;
+    }
+
+    section {
+      width: 30%; height: 100%;
+      background-color: #fff;
+      border-left: 1px solid tomato;
+      margin: 0;
+      text-indent: 10px;  
+    }
+
+    .item3 ul {
+      list-style: none;
+      display: inline;
+    }
+
+    .item3 ul a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .item3 ul a:hover {
+      color: tomato;
+    }
+
+    .item3 ul li {
+      border-bottom: 1px solid tomato;
+      padding: 10px 0 0;
+    }
+
+    .item3 h3 {
+      color: tomato;
+      padding: 20px 0 0;
+    }
+
+    footer {
+      padding: 0 8px;
+      background-color: #790cb8;
+      color: #FFF;
+      font-size: 0.8rem;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- favicon, og 까지 -->
+  <div class="container">
+    <header>
+      <div class="wrapper1">
+        <h1>
+          <img src="./img/Leica_logo.png" alt="로고이미지" class="logo">
+        </h1>
+        <h2>kim's kitchen</h2>
+        <h3>cooking class</h3>
+      </div>
+    </header>
+  
+    <nav>
+      <ul class="gnb">
+        <li><a href="#">홈</a></li>
+        <li><a href="#">소개</a></li>
+        <li><a href="#">교실</a></li>
+        <li><a href="#">케이터링</a></li>
+        <li><a href="#">연락처</a></li>
+      </ul>
+    </nav>
+    
+    <main class="wrapper2">
+      <div class="item">
+        <p class="imgBox">
+          <img src="./img/salad.PNG" alt="샐러드" class="itemImg">
+          oriental salad
+        </p>
+        <p class="imgBox">
+          <img src="./img/source.PNG" alt="소스" class="itemImg">
+          teriyaki
+        </p>
+        <div class="item item2">
+        <h3>채식주의자</h3>
+        <h4>런던에서의 5주 코스</h4>
+        <p>5주간 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다.</p>
+      </div>
+      <div class="item item2">
+        <h3>소스 마스터 클래스</h3>
+        <h4>1일 워크샵</h4>
+        <p>1일 집중 코스에서는 다양한 요리에서 사용할 수 있는 가장 맛잇는 소스를 만드는 방법을 살펴본다.</p>
+      </div>  
+      </div>
+
+      <section class="item3">
+        <h3>인기요리법</h3>
+        <ul>
+          <li><a href="#">후라이드</a></li>
+          <li><a href="#">고추바사삭</a></li>
+          <li><a href="#">양념치킨</a></li>
+          <li><a href="#">뿌링클</a></li>
+        </ul>
+        <h3>연락처</h3>
+        <p>경기 수원시 팔달구 매산동</p>
+      </section>
+    </main>
+
+  
+    <footer>
+      <p>ⓒKim's Kitchen 김씨네 키친</p>
+    </footer>
+  </div>
+
+  
+</body>
+</html>
