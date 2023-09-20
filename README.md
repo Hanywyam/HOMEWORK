@@ -1,5 +1,10 @@
 # homework #
 
+### 230920 ### 
+
+- **web EX**
+	- kim's kitchen index 작업
+
 ### 230915 ### 
 
 - 1차 평가: UIUX요구분석_230915_한재영
