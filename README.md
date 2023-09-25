@@ -2,6 +2,11 @@
 
 ### 230920 ### 
 
+- flexNavEx
+
+
+### 230920 ### 
+
 - **web EX** :kim's kitchen index 작업
 
 ### 230915 ### 
