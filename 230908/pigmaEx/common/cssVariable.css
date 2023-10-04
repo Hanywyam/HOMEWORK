@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* css 변수 */
+
+/* 전역 선언 */
+:root {
+  /* 변수 설정 */
+  --font-en : "Catamaran", "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", monospace;
+  --font-ko : "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Apple Color Emoji", Dotum, 돋움, sans-serif;
+}
