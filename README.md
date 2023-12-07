@@ -1,8 +1,12 @@
 # homework
 
+### 231201-05
+
+- 팀프로젝트 2 : nunettine[NuTTi]
+
 ### 231113
 
-- 팀프로젝트 1 : ah-oh[click](https://github.com/Ah-oh-team-project/make_neoDG) <br>
+- 팀프로젝트 1 : ah-oh[click](https://github.com/Ah-oh-team-project/make_neoDG)
 
 ### 230922
 
