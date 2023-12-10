@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "SKYBORI";
+  src: url(../public/fonts/SKYBORI.woff);
+}
+@font-face {
+  font-family: "봉숭아틴트체";
+  src: url(../public/fonts/봉숭아틴트체.woff);
+}
+@font-face {
+  font-family: "온글잎의연체";
+  src: url(../public/fonts/온글잎의연체.woff);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
