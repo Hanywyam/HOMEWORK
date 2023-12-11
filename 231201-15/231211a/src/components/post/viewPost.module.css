@@ -1,0 +1,6 @@
+.postList {
+  list-style: none;
+}
+.postListItem img {
+  width: 100px;
+}

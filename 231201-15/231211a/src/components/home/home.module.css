@@ -1,0 +1,183 @@
+/* Loading */
+.loading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.loading .loading_img {
+  width: 65vw;
+  height: 45vh;
+  margin-bottom: 15vh;
+}
+
+/* Home */
+.logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.logo h1 {
+  margin: 0;
+}
+.logo h1 .logoimg {
+  width: 68vw;
+  height: 33vh;
+  margin-bottom: 9vh;
+}
+.logo .login_btn {
+  font-family: "봉숭아틴트체";
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5vh;
+  padding: 1vh 20vw;
+  background-color: var(--layout-color3);
+  color: var(--main-font-color);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.logo .join_btn {
+  font-family: "봉숭아틴트체";
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--bg-color);
+  color: var(--sub-font-color);
+  cursor: pointer;
+}
+
+/* Login */
+.login {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login .back {
+  border: none;
+  font-size: 1.5rem;
+  background-color: var(--bg-color);
+  position: fixed;
+  top: 2px;
+  left: 2px;
+  color: var(--main-font-color);
+}
+.login h1 {
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+.login h1 .login_logo {
+  width: 30vw;
+}
+.login h2 {
+  margin: 2vh 0 10vh;
+  font-size: 1.6rem;
+}
+.login form {
+  text-align: center;
+}
+.login form .id_box {
+  width: 60vw;
+  font-family: "봉숭아틴트체";
+  font-size: 1.5rem;
+  color: var(--main-font-color);
+  padding: 10px 20px 3px 20px;
+  border: none;
+  border-bottom: 2px solid var(--layout-color3);
+  background-color: var(--bg-color);
+  margin-bottom: 20px;
+  &:focus {
+    outline: none;
+  }
+}
+.login form .login_button {
+  background-color: var(--layout-color3);
+  font-size: 1.8rem;
+  font-family: "봉숭아틴트체";
+  font-weight: bold;
+  padding: 1vh 20vw;
+  border: none;
+  border-radius: 30px;
+  color: var(--main-font-color);
+  margin-top: 20vh;
+  cursor: pointer;
+}
+
+/* Join */
+.join {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.join .back {
+  border: none;
+  font-size: 1.5rem;
+  background-color: var(--bg-color);
+  position: fixed;
+  top: 2px;
+  left: 2px;
+  color: var(--main-font-color);
+}
+.join h1 {
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+.join h1 .login_logo {
+  width: 30vw;
+}
+
+.join h2 {
+  margin: 2vh 0 5vh;
+  font-size: 1.6rem;
+}
+.join form {
+  text-align: center;
+}
+.join form input {
+  font-size: 1.2rem;
+  width: 60vw;
+  background-color: var(--bg-color);
+  border: none;
+  border-bottom: 2px solid var(--layout-color3);
+  font-family: "봉숭아틴트체";
+  padding: 10px 20px 3px 20px;
+  background-color: var(--bg-color);
+  margin-bottom: 20px;
+  color: var(--main-font-color);
+  &:focus {
+    outline: none;
+  }
+}
+
+.join form .checked {
+  font-size: 1.2rem;
+  width: 5vw;
+  margin: 0;
+  margin-top: 15vh;
+}
+.join form .join_button {
+  background-color: var(--layout-color3);
+  font-size: 1.8rem;
+  font-family: "봉숭아틴트체";
+  font-weight: bold;
+  padding: 1vh 17vw;
+  border: none;
+  border-radius: 30px;
+  color: var(--main-font-color);
+  margin-top: 3.3vh;
+  cursor: pointer;
+}
