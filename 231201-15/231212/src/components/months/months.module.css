@@ -1,0 +1,12 @@
+/* months.module.css */
+.monthlyWrap {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.monthlyList {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
