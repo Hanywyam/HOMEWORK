@@ -1,0 +1,33 @@
+.postingWrapper {
+  padding: 100px 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+.postingWrapper > div {
+  display: flex;
+  justify-content: space-between;
+}
+.postingWrapper .postingDate {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.postingWrapper .postingText {
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 2px solid var(--main-font-color);
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.postingWrapper .postingTextarea {
+  width: 85%;
+  height: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,89 @@
+/* font */
+@font-face {
+  font-family: "SKYBORI";
+  src: url(../public/fonts/SKYBORI.woff);
+}
+@font-face {
+  font-family: "봉숭아틴트체";
+  src: url(../public/fonts/봉숭아틴트체.woff);
+}
+@font-face {
+  font-family: "온글잎의연체";
+  src: url(../public/fonts/온글잎의연체.woff);
+}
+
+/* common */
+:root {
+  /* 메인 폰트 컬러 */
+  --main-font-color: #222;
+  /* 서브 폰트 컬러 */
+  --sub-font-color: #666;
+
+  /* 배경 컬러 */
+  --bg-color: #ffffff;
+}
+
+body {
+  font-family: "봉숭아틴트체", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--main-font-color);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* padding: 0 30px 0; */
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+form input {
+  font-size: 1.2rem;
+  width: 60vw;
+  border: none;
+  border-bottom: 2px solid var(--main-font-color);
+  font-family: "봉숭아틴트체";
+  padding: 10px 20px 3px 20px;
+  margin-bottom: 20px;
+  color: var(--main-font-color);
+  &:focus {
+    outline: none;
+  }
+}
+button {
+  font-family: "봉숭아틴트체", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+}
+
+.addBtn {
+  text-indent: -99999px;
+  width: 40px;
+  height: 40px;
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  top: 35px;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+}
+.addBtn::after,
+.addBtn::before {
+  content: "";
+  background-color: #222;
+  width: 3px;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.addBtn::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}

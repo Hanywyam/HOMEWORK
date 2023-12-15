@@ -1,0 +1,23 @@
+.commentWrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.commentWrapper input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--layout-color3);
+  width: 75%;
+  height: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.commentWrapper button {
+  background-color: var(--layout-color3);
+  border: none;
+  width: 25%;
+  height: 30px;
+  vertical-align: bottom;
+  margin-left: 10px;
+}

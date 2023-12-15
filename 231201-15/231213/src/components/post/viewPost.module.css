@@ -1,0 +1,34 @@
+.ViewPostWrapper .ViewPostContent {
+  text-align: start;
+}
+.ViewPostWrapper .ViewPostContent > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ViewPostWrapper .ViewPostContent > div figure {
+  width: 40%;
+}
+.ViewPostWrapper .ViewPostContent > div figure figcaption {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.ViewPostWrapper .ViewPostContent img {
+  width: 100%;
+}
+.ViewPostWrapper .ViewPostContentDate {
+  border-bottom: 2px dotted var(--layout-color3);
+  display: block;
+  width: 100%;
+  padding: 10px 0 10px;
+  color: var(--sub-font-color);
+}
+.ViewPostWrapper h2 {
+  margin: 0;
+  padding: 15px 0 15px;
+  font-size: 1.3rem;
+}
+.ViewPostWrapper p {
+  margin: 0;
+}

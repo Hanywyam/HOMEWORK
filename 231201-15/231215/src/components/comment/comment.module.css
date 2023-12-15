@@ -1,0 +1,44 @@
+.commentForm {
+  border: 2px solid #000;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 30px;
+}
+.commentForm .commentInput {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.commentForm .commentBtn {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.commentList {
+  width: 95%;
+  margin: 20px auto;
+}
+.commentList .commentP {
+  margin-top: 5px;
+}
+.commentList .commentUser {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted #000;
+}
+.commentList .commentUser .comImgName {
+  display: flex;
+}
+.commentList .commentUser .profileImg {
+  width: 50px;
+}
+.commentList .commentUser .commentDate {
+  margin: 0;
+}
