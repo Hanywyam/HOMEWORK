@@ -1,0 +1,82 @@
+/* 일기추가버튼 */
+.addBtn {
+  text-indent: -9999px;
+  width: 40px;
+  height: 40px;
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+}
+.addBtn::after,
+.addBtn::before {
+  content: "";
+  background-color: #222;
+  width: 3px;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.addBtn::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+.diary {
+  width: 100%;
+  height: 100%;
+}
+.diaryWrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.diaryWrap ul {
+  padding: 80px 30px 0;
+}
+.diaryWrap ul .diaryList {
+  border: 3px solid var(--main-font-color);
+  border-radius: 20px;
+  height: 100px;
+  margin: 10px 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.diaryWrap ul .diaryList > article {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  background-color: var(--main-font-color);
+  color: #fff;
+  border-radius: 0 13px 13px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.diaryWrap ul .diaryList > article > span {
+  padding-top: 8px;
+}
+.diaryWrap ul .diaryList > article div {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.diaryWrap ul .diaryList > article div > span {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.diaryWrap ul .diaryList > article h3 {
+  margin: 0;
+}
+.diaryWrap ul .diaryList .diaryItem {
+  width: 100px;
+  margin: 20px;
+}
+.diaryItem img {
+  width: 100%;
+}
