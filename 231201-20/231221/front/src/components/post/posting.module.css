@@ -1,0 +1,83 @@
+.posting {
+  height: 100%;
+}
+.postingWrapper {
+  width: 390px;
+  padding: 100px 30px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+.postingWrapper > div {
+  display: flex;
+  justify-content: space-between;
+}
+.postingWrapper .postingDate {
+  background-color: var(--main-color);
+  color: #fff;
+  font-family: "봉숭아틴트체", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 1rem;
+}
+.postingWrapper .postingText {
+  background-color: var(--bg-color);
+  width: 85%;
+  margin: 20px auto 0;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 2px solid var(--main-color);
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.postingWrapper .postingTextarea {
+  background-color: var(--bg-color);
+  width: 85%;
+  height: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+/* 작성완료버튼 */
+.postingBtn {
+  width: 390px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.addBtn {
+  text-indent: -9999px;
+  width: 40px;
+  height: 40px;
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  cursor: pointer;
+}
+.addBtn::after,
+.addBtn::before {
+  content: "";
+  background-color: var(--main-color);
+  width: 3px;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.addBtn::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}

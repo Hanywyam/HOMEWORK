@@ -1,0 +1,16 @@
+.normal-day {
+  background: white !important;
+  color: #222222 !important;
+  width: 28px;
+  height: 28px;
+  line-height: 1.8;
+  text-align: center;
+  padding: 2px !important;
+}
+
+.selected-day {
+  background: #CFD2CD !important;
+  color: white !important;
+  border-radius: 50% !important;
+  font-weight: 700;
+}
