@@ -1,0 +1,96 @@
+.commentCon {
+  padding: 80px 30px;
+  position: relative;
+  font-size: 1.2rem;
+}
+.commentForm {
+  background-color: var(--bg-color);
+  width: 390px;
+  height: 130px;
+  padding: 0 20px;
+  position: fixed;
+  bottom: -80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  z-index: 100;
+}
+.commentForm .commentInput {
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  border-radius: 30px;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.commentForm .commentBtn {
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  position: absolute;
+  top: 52px;
+  right: 30px;
+  transform: translate(-50%, -50%);
+}
+.commentList {
+  width: 95%;
+  margin: 20px auto;
+  padding: 5px 0;
+  position: relative;
+}
+.commentList .commentP {
+  margin-top: 5px;
+}
+.commentList .commentBtn {
+  text-indent: -9999px;
+  border: none;
+  background-color: transparent;
+  margin-top: 22px;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  cursor: pointer;
+}
+.commentList .commentBtn::after,
+.commentList .commentBtn::before {
+  content: "";
+  background-color: var(--main-color);
+  width: 60%;
+  height: 1.3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.commentList .commentBtn::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.commentList .commentUser {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted var(--main-color);
+}
+.commentList .commentUser .comImgName {
+  width: 65%;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commentList .commentUser .comImgName span {
+  font-weight: bold;
+}
+.commentList .commentUser .profileImg {
+  width: 55px;
+  margin-bottom: 7px;
+}
+.commentList .commentUser .commentDate {
+  margin: 0;
+  color: var(--sub-font-color);
+  font-size: 1rem;
+}
