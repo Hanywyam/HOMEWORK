@@ -1,0 +1,60 @@
+section {
+  position: relative;
+}
+.editPostWrapper {
+  width: 390px;
+  height: 100%;
+  padding: 100px 30px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.editPostWrapper input {
+  border: none;
+  outline: none;
+  background-color: var(--bg-color);
+}
+.editPostWrapper input:first-child {
+  background-color: var(--main-color);
+  color: #fff;
+  font-family: "봉숭아틴트체", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 10px;
+  width: 100px;
+  outline: none;
+  font-size: 1rem;
+}
+.editPostWrapper input:nth-child(2) {
+  background-color: var(--bg-color);
+  width: 85%;
+  margin: 20px auto 0;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 2px solid var(--main-color);
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.editPostWrapper textarea {
+  background-color: var(--bg-color);
+  width: 85%;
+  height: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+.editPostWrapper button {
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  border: none;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  cursor: pointer;
+  z-index: 100000;
+}
