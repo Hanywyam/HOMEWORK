@@ -1,6 +1,6 @@
 # 개발 일지
 
-#### [산대특]프론트앤드 수업 정리
+#### [산대특]프론트앤드 공부 정리
 
 > **Portfolio:** [click🌐](https://github.com/Hanywyam/react_study) <br/> **React_study:** [click🌐](https://github.com/Hanywyam/react_study)<br/> **JS_study:** [click🌐](https://github.com/Hanywyam/js_study)<br/> **CSS3_study:** [click🌐](https://github.com/Hanywyam/css_study)<br/> **HTML5_study:** [click🌐](https://github.com/Hanywyam/html_study)<br/> **git_study:** [click🌐](https://github.com/Hanywyam/GIT_study)<br/>
 
