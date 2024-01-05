@@ -14,6 +14,14 @@
 
 > 팀프로젝트 1 : **ah-oh** [click🌐](https://github.com/Ah-oh-team-project/make_neoDG)
 
+### 231118
+
+- toyproject: 환율 계산기
+
+### 231116
+
+- to-do-list
+
 ### 230922
 
 - flexNavEx
