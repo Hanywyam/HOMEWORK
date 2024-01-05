@@ -2,7 +2,7 @@
 
 #### [산대특]프론트앤드 수업 정리
 
-> **Portfolio:** [click🌐](https://github.com/Hanywyam/react_study) <br/> > **react_study:** [click🌐](https://github.com/Hanywyam/react_study)<br/> > **js_study:** [click🌐](https://github.com/Hanywyam/js_study)<br/> > **css_study:** [click🌐](https://github.com/Hanywyam/css_study)<br/> > **html_study:** [click🌐](https://github.com/Hanywyam/html_study)<br/> > **GIT_study:** [click🌐](https://github.com/Hanywyam/GIT_study)<br/>
+> **Portfolio:** [click🌐](https://github.com/Hanywyam/react_study) <br/> **react_study:** [click🌐](https://github.com/Hanywyam/react_study)<br/> **js_study:** [click🌐](https://github.com/Hanywyam/js_study)<br/> **css_study:** [click🌐](https://github.com/Hanywyam/css_study)<br/> **html_study:** [click🌐](https://github.com/Hanywyam/html_study)<br/> **GIT_study:** [click🌐](https://github.com/Hanywyam/GIT_study)<br/>
 
 # homework
 
