@@ -8,11 +8,11 @@
 
 ### 231201-20
 
-> 팀프로젝트 2 : **nunettine** [click](https://port-0-nutti-9zxht12blqemz5ik.sel4.cloudtype.app/)
+> 팀프로젝트 2 : **nunettine** [click🌐](https://port-0-nutti-9zxht12blqemz5ik.sel4.cloudtype.app/)
 
 ### 231113
 
-> 팀프로젝트 1 : **ah-oh** [click](https://github.com/Ah-oh-team-project/make_neoDG)
+> 팀프로젝트 1 : **ah-oh** [click🌐](https://github.com/Ah-oh-team-project/make_neoDG)
 
 ### 230922
 
