@@ -16,11 +16,11 @@
 
 ### 231118
 
-- toyproject: 환율 계산기
+- toyproject: 환율 계산기 [click🌐](https://github.com/Hanywyam/react_study/tree/main/231118hw)
 
 ### 231116
 
-- to-do-list
+- to-do-list [click🌐](https://github.com/Hanywyam/react_study/tree/main/231116hw)
 
 ### 230922
 
