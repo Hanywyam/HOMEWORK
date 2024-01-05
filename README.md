@@ -1,8 +1,19 @@
+# 개발 일지
+
+#### [산대특]프론트앤드 수업 정리
+
+- Portfolio[click🌐](https://github.com/Hanywyam/react_study)
+- react_study[click🌐](https://github.com/Hanywyam/react_study)
+- js_study[click🌐](https://github.com/Hanywyam/js_study)
+- css_study[click🌐](https://github.com/Hanywyam/css_study)
+- html_study[click🌐](https://github.com/Hanywyam/html_study)
+- GIT_study[click🌐](https://github.com/Hanywyam/GIT_study)
+
 # homework
 
 ### 231201-05
 
-- 팀프로젝트 2 : nunettine[NuTTi]
+- 팀프로젝트 2 : nunettine[click](https://port-0-nutti-9zxht12blqemz5ik.sel4.cloudtype.app/)
 
 ### 231113
 
