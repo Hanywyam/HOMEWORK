@@ -2,17 +2,25 @@
 
 #### [산대특]프론트앤드 공부 정리
 
-> **Portfolio:** [click🌐](https://github.com/Hanywyam/react_study) <br/> **React_study:** [click🌐](https://github.com/Hanywyam/react_study)<br/> **JS_study:** [click🌐](https://github.com/Hanywyam/js_study)<br/> **CSS3_study:** [click🌐](https://github.com/Hanywyam/css_study)<br/> **HTML5_study:** [click🌐](https://github.com/Hanywyam/html_study)<br/> **git_study:** [click🌐](https://github.com/Hanywyam/GIT_study)<br/>
+> **Portfolio:** [click🌐](https://github.com/Hanywyam/portfolio_2024?tab=readme-ov-file#2024-frontend-portfolio) <br/> **React_study:** [click🌐](https://github.com/Hanywyam/react_study?tab=readme-ov-file#react_study)<br/> **JS_study:** [click🌐](https://github.com/Hanywyam/js_study)<br/> **CSS3_study:** [click🌐](https://github.com/Hanywyam/css_study?tab=readme-ov-file#css-%EA%B8%B0%EC%B4%88-%EC%88%98%EC%97%85)<br/> **HTML5_study:** [click🌐](https://github.com/Hanywyam/html_study?tab=readme-ov-file#html-%EA%B8%B0%EC%B4%88-%EC%88%98%EC%97%85)<br/> **git_study:** [click🌐](https://github.com/Hanywyam/GIT_study?tab=readme-ov-file#git)<br/>
 
 # homework
 
+### 240108-
+
+> 개인 프로젝트 : **IncheonAirport** [click🌐](https://github.com/Hanywyam/IncheonAirport?tab=readme-ov-file#-incheonairport)
+
+### 231226-
+
+> 개인 프로젝트 : **Portfolio** [click🌐](https://hanywyam.github.io/portfolio_2024/)
+
 ### 231201-20
 
-> 팀프로젝트 2 : **nunettine** [click🌐](https://port-0-nutti-9zxht12blqemz5ik.sel4.cloudtype.app/)
+> 팀프로젝트 2 : **nunettine** [click🌐](https://github.com/Hanywyam/Nutti?tab=readme-ov-file#-team-nunettine)
 
 ### 231113
 
-> 팀프로젝트 1 : **ah-oh** [click🌐](https://github.com/Ah-oh-team-project/make_neoDG)
+> 팀프로젝트 1 : **ah-oh** [click🌐](https://github.com/Hanywyam/neoDGweb?tab=readme-ov-file#love_letter-team-project--ah-oh)
 
 ### 231118
 
